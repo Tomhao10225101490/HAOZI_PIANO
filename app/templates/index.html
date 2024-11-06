@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <header>
+        <h1>钢琴乐谱查询</h1>
+    </header>
+    
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="输入曲名搜索乐谱...">
+        <button id="search-btn">搜索</button>
+    </div>
+    
+    <div id="results-container">
+        <!-- 搜索结果将动态插入这里 -->
+    </div>
+</div>
+{% endblock %} 
